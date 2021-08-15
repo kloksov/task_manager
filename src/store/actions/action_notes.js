@@ -1,0 +1,3 @@
+export const ACTION_ADD_NOTE = 'ACTION_ADD_NOTE';
+export const ACTION_EDIT_NOTE = 'ACTION_EDIT_NOTE';
+export const ACTION_DEL_NOTE = 'ACTION_DEL_NOTE';

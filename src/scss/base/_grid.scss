@@ -1,0 +1,17 @@
+
+$flex_margin: 20px;
+
+.row {
+    display: flex;
+    flex-direction: row;
+    width: getSetting('width-app');
+    margin-right: ($flex_margin / -2);
+    margin-left: ($flex_margin / -2);
+}
+
+.col {
+    position: relative;
+    width: 100%;
+    padding-right: ($flex_margin / 2);
+    padding-left: ($flex_margin / 2);
+}

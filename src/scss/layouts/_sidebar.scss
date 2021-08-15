@@ -1,0 +1,5 @@
+
+.sidebar {
+    width: getSetting('width-sidebar');
+    background-color: getColor('background-sidebar');
+}

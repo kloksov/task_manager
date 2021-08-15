@@ -1,0 +1,18 @@
+
+/**
+ * Получение цвета
+ * @param {String} $name
+ * @return {Color}
+ */
+@function getColor ($name) {
+    @return map-get($colors, $name);
+}
+
+/**
+ * Получение настройки
+ * @param {String} $name
+ * @return {String}
+ */
+@function getSetting ($name) {
+    @return map-get($settings, $name);
+}
